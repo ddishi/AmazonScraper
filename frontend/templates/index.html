@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Price Searcher</title>
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../static/css/styles.css">
+    <script src="../static/js/main.js" defer></script>
+
+</head>
+<body>
+<header>
+    <h1>Amazon Price Searcher</h1>
+
+    <nav class="navbar">
+        <div class="navbar-brand">
+            <img src="../static/images/NicePng_amazon-logo-png_167642.png" alt="Amazon logo" class="amazon-logo"
+                 id="easter-egg-image">
+        </div>
+        <div class="navbar-search">
+            <input type="text" id="search-input" placeholder="Search for an item">
+            <button id="search-button">🔍</button>
+        </div>
+        <div class="navbar-menu">
+            <button id="search-history-btn">My Search History</button>
+        </div>
+    </nav>
+</header>
+
+
+<table id="search-results"></table>
+<div id="product-details"></div>
+<div id="price-comparison-container"></div>
+<table id="comparison-table">
+
+</table>
+
+<!-- Subscription Modal -->
+<div id="subscription-modal" class="modal">
+    <div class="modal-content">
+        <span class="close">&times;</span>
+        <h1>Upgrade Your Subscription!</h1>
+        <h2>You have reached the daily search limit of 10!
+            <br><br>Please consider upgrading your subscription.</h2>
+        <!-- Add your subscription plans here -->
+    </div>
+</div>
+
+</body>
+</html>
